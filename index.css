@@ -1,1 +1,93 @@
 /* Put your style information here! */
+@media (max-width: 768px) {
+    .main {
+        margin-left: 0 !important;
+        margin-right: 0 !important;        
+    }
+}
+
+body {
+    font-family: 'PT Serif Caption', cursive;
+}
+
+.back {
+    background-color: #9B2523;
+} 
+
+.main {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.note {
+    font-size: 1.5vw;
+    color: white;
+}
+
+.opensign {
+    background-color: rgb(243, 204, 92);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.openlabel {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+
+h0 {
+    font-family: 'Abril Fatface';
+    font-size:5vw;
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+h1 {
+    font-family: 'Bree Serif', cursive;
+    font-size: 4vw;
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h4 {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h5 {
+    font-family: 'Dekko', cursive;
+    font-weight: 900;
+    text-align: left;
+    font-size: 15px;
+    padding-top: 3px;
+}
+
+h6 {
+    font-family: 'Raleway', cursive;
+    color: white;
+    font-size: 16px;
+    padding-top: 3px;
+}
+
+.container {
+	max-width: 960px;
+}

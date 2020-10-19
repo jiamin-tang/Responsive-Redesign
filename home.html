@@ -1,14 +1,224 @@
-<!doctype html>
-
-<html>
+<html lang="en">
   <head>
-    <title>INSERT TITLE HERE!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="index.css">
-    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <script src="bootstrap.bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif+Caption&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/90f50068f8.js" crossorigin="anonymous"></script>
+    
+    <title>Chongqing House | East Providence in RI | Main Menu</title>
   </head>
-
+  
   <body>
-    <!-- TODO: put your HTML code here! -->
+
+    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color:rgb(114, 15, 13);">
+      <div class="container">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navdemo">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navdemo">
+          <ul class="navbar-nav nav nav-fill w-100">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#menu">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#locations&hours">Locations&Hours</a></li>
+            <li class="nav-item"><a class="nav-link" href="#login">Login</a></li>
+            <li class="nav-item"><a class="nav-link" href="#deliveryinfo">Delivery Info</a></li>
+            <li class="nav-item"><a class="nav-link" href="#cart"><i class="fas fa-shopping-cart"></i>Cart</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav> 
+
+
+    <div class="back">
+      <div class="main">
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-2 col-lg-2">
+              <img class="img-fluid" style="width: 15vw;" src="images/logo.png" alt="chongqing house logo" >
+            </div>
+            <div class="col-md-10 col-lg-10">
+              <h0>CHONGQING HOUSE</h0>
+            </div>
+
+          </div>
+
+          <div class="row">
+            <h1>Main Menu</h1>
+          </div>
+          <div class="row">
+            <div class="note">Please note: requests for additional items or special preparation may incur an extra charge not calculated on your online order.</div>
+          </div>
+          <hr>
+
+        </div>
+
+        
+
+        <div class="container pb-3" style="background-color: rgb(252, 243, 215)">
+          <div class="row">
+            <div class="opensign">
+              <div class="openlabel">Opening! Tuesday: 11AM - 10PM</div>
+            </div>
+            <div class="col-lg-3 border-right">
+              <div class="row">
+                <h3 style="font-weight: bold;"><i class="far fa-user"></i> Hi, Guest</h3>
+                <hr>
+              </div>
+
+              <div class="dropdown">
+                <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Please select
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#appetizers">Appetizers</a>
+                  <a class="dropdown-item" href="#soup">Soup</a>
+                  <a class="dropdown-item" href="#noodles">Noodles</a>
+                  <a class="dropdown-item" href="#rice">Rice</a>
+                  <a class="dropdown-item" href="#meifun">Mei Fun</a>
+                  <a class="dropdown-item" href="#seafood">Seafood</a>
+                  <a class="dropdown-item" href="#beefporklamb">Beef/Pork/Lamb</a>
+                  <a class="dropdown-item" href="#chickenduck">Chicken/Duck</a>
+                  <a class="dropdown-item" href="#vegetables">Vegetables</a>
+                  <a class="dropdown-item" href="#dietdishes">Diet Dishes</a>
+                  <a class="dropdown-item" href="#dessert">Dessert</a>
+                  <a class="dropdown-item" href="#sideorder">Side Order</a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-sm-12 col-md-8 col-lg-6 text-center justify-content-center border-right">
+              <p style= "font-family: 'Bree Serif', cursive; font-size: 20px; font-weight: bolder; padding-top: 5px; padding-bottom: 5px;">Featured Dishes</p>
+              <div class="row">
+                <div class="col-md-8 col-lg-10">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search menu" aria-label="Search">
+                </div>
+                <div class="col-md-4 col-lg-2">
+                  <button class="btn btn-outline-secondary my-2 my-sm-0 float-right" type="submit">Search</button>
+                </div>
+              </div>
+                
+              <div class="row pt-3" id="appetizers">
+                <h2>Appetizers</h2>
+              </div>
+
+              <div class="container">
+                <div class="row align-items-center">
+                  <div class="col-sm-12 col-md-12 col-lg-6 pt-5">
+                    <img class="img-fluid" src="images/pancake.png" alt="scallion pancake">
+                    <h5>Scallion Pancake</h5>
+                    <h5>$7.95 <button type="button" class="btn btn-sm btn-danger float-right"><i class="fas fa-cart-plus"></i> Order</button></h5>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-6 pt-5">
+                    <img class="img-fluid" src="images/roll.png" alt="spring roll">
+                    <h5>Shanghai Spring Rolls</h5>
+                    <h5>$3.95 <button type="button" class="btn btn-sm btn-danger float-right"><i class="fas fa-cart-plus"></i> Order</button></h5>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-6 pt-5">
+                    <img class="img-fluid" src="images/jelly.png" alt="sichuan jelly">
+                    <h5>Sichuan Jelly</h5>
+                    <h5>$8.95 <button type="button" class="btn btn-sm btn-danger float-right"><i class="fas fa-cart-plus"></i> Order</button></h5>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-6 pt-5">
+                    <img class="img-fluid" src="images/wonton.png" alt="wontons">
+                    <h5>Wontons in Chilli Sauce</h5>
+                    <h5>$7.95 <button type="button" class="btn btn-sm btn-danger float-right"><i class="fas fa-cart-plus"></i> Order</button></h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row py-5">
+                <button type="button" class="btn btn-outline-secondary btn-sm float-right">view more</button>
+              </div>
+
+              <hr>
+
+              <div class="row pt-3" id="soup">
+                <h2>Soup </h2>
+              </div>              
+              <div class="container">
+                <div class="row align-items-center">
+                  <div class="col-sm-12 col-md-12 col-lg-6 pt-5">
+                    <img class="img-fluid" src="images/tofu.png" alt="tofu chowder">
+                    <h5>Seafood Tofu Chowder</h5>
+                    <h5>$13.95 <button type="button" class="btn btn-sm btn-danger float-right"><i class="fas fa-cart-plus"></i> Order</button></h5>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-6 pt-5">
+                    <img class="img-fluid" src="images/pork.png" alt="pork trotters soup">
+                    <h5>Pork Trotters Bean Soup</h5>
+                    <h5>$10.95 <button type="button" class="btn btn-sm btn-danger float-right"><i class="fas fa-cart-plus"></i> Order</button></h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row py-5">
+                <button type="button" class="btn btn-outline-secondary btn-sm float-right">view more</button>
+              </div>
+              
+              
+            </div>
+
+            <div class="col-sm-12 col-md-4 col-lg-3 text-center justify-content-center">
+              <div class="row">
+                <h3 style="font-weight: bold;">My Order</h4>
+                <hr>
+              </div>
+              <div class="row py-5">
+                <i class="fas fa-cart-plus fa-5x" style="color:rgba(219, 211, 212, 0.74);"></i>
+                <h4>Start adding items</h4>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 text-left">
+                  <h4>Subtotal</h4>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 text-right">
+                  <h4>$0</h4>
+                </div>
+                <button type="button" class="btn btn-danger">Checkout</button>
+                
+              </div>
+            </div>
+            
+
+          </div>
+        </div>
+        
+      </div> 
+    </div>
+    
+    
+    
+    <footer class="py-3" style="background-color: rgb(114, 15, 13);">
+      <div class="main">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-3">
+              <img class="img-fluid" style="width: 7rem;" src="images/logo.png" alt="chongqing house logo">
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3">
+              <h6 style="font-weight: bold;">Address</h6>
+              <h6>188 Taunton Ave</h6>
+              <h6>East Providence, RI 02914</h6>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3">
+              <h6 style="font-weight: bold;">Contact</h6>
+              <h6>(401) 272-2049	</h6>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3">
+              <h6 style="font-weight: bold;">Follow</h6>
+              <i class="fab fa-facebook-square fa-2x" style="color:white;"></i> <i class="fab fa-google-plus-square fa-2x" style="color:white;"></i> <i class="fab fa-twitter-square fa-2x" style="color:white;"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </footer>
+  
   </body>
+  
 </html>
